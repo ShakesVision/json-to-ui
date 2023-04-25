@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JSON to UI</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="json-tree"></div>
+      <div>
+        <label for="selected-properties">Enter selected properties:</label>
+        <input
+          type="text"
+          id="selected-properties"
+          class="selected-properties"
+          placeholder="e.g. title, completed"
+        />
+        <button id="convert">CONVERT</button>
+        <div id="result"></div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
